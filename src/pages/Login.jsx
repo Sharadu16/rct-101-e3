@@ -1,12 +1,13 @@
-import React, { useState, useContext } from "react";
-import { AuthContext } from "../context/AuthContext";
+import React from "react";
+// import { AuthContext } from "../context/AuthContext";
 
 const Login = () => {
+  //  const {authorized} = useContext(AuthContext);
   return (
     <div>
-      <input data-cy="login-email" />
-      <input data-cy="login-password" />
-      <button data-cy="login-submit"></button>
+      <input data-cy="login-email" placeholder="enter username" />
+      <input data-cy="login-password" placeholder="enter your password" />
+      <button data-cy="login-submit">Login</button>
     </div>
   );
 };
