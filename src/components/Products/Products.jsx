@@ -18,7 +18,7 @@ const Products = () => {
      Products :
      {
         products.map((prod) => (
-           <div key={prod.id}>{prod.name}</div>
+           <div key={prod.id}>name={prod.name}, description={prod.description}</div>
         ))
      }
   </div>;
